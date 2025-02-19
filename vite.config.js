@@ -5,4 +5,9 @@ import tsconfigPaths from "vite-tsconfig-paths"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+  preview: {
+    host: '0.0.0.0',
+    port: 3000,
+    allowedHosts: ['jobglu.onrender.com'],
+  }
 })
