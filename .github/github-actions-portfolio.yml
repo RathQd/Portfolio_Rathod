@@ -7,7 +7,7 @@ on:
     branches:
       - "main"
 jobs:
-  jobglu_job:
+  portfolio_job:
     runs-on: ubuntu-latest
     environment:
       name: testing
