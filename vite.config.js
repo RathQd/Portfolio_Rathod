@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   preview: {
     host: '0.0.0.0',
-    port: 3000,
-    allowedHosts: ['jobglu.onrender.com'],
+    port: 5000,
+    allowedHosts: ['dharmrajrathod6.onrender.com'],
   }
 })
