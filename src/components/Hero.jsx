@@ -20,6 +20,7 @@ const Hero = () => {
       <Stack
         direction={{ base: "column-reverse", md: "row" }}
         spacing={{ base: 10, md: 30 }}
+        mx={50}
         align="center"
         justify="center"
         w="full"
@@ -55,19 +56,19 @@ const Hero = () => {
           <MotionText
             fontSize={{ base: "md", md: "lg" }}
             color="gray.400"
+            width={{ base: "", md: "650px" }}
             lineHeight="tall"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Passionate about building scalable software, creating effective solutions, 
-            and learning every day to grow professionally in the IT field.
+            Solution-driven software developer with expertise in FastAPI, PostgreSQL, and Python, building scalable backend systems. Skilled in Docker, containerization, automation, CI/CD, and testing for efficient workflows. Proficient in Git for version control and familiar with React & Node.js for full-stack development.
           </MotionText>
 
           {/* Button - Zooms in */}
           <MotionButton
             as="a"
-            href="/resume.pdf"
+            href="/DharmrajRathod.pdf"
             download
             colorScheme="teal"
             borderRadius="full"
@@ -87,8 +88,9 @@ const Hero = () => {
 
         {/* Right Side - Animated Image */}
         <Box
-          width={{ base: "185px", md: "300px", lg: "400px" }}
-          height={{ base: "185px", md: "250px", lg: "400px" }}
+          width={{ base: "185px", md: "300px", lg: "450px" }}
+          height={{ base: "185px", md: "250px", lg: "450px" }}
+          // ml={{ base: "45px", md: "0px", lg: "0px" }}
           borderRadius="full"
           border="2px solid white"
           overflow="hidden"

@@ -13,19 +13,17 @@ const Navbar = () => {
         w="100%"
         h="40px"
         p={2}
-        // backgroundImage="linear-gradient(to bottom right, rgb(83, 83, 83), rgb(3, 3, 3))"
         color="white"
         align="center"
         position="sticky"
         zIndex={1}
-        // borderBottom="2px solid gray"
     >
   <GiBowArrow size={40}/>
   <Spacer />
   <Flex gap={0}>
     <IconButton
       as="a"
-      href="https://www.linkedin.com"
+      href="https://www.linkedin.com/in/rathqd/"
       target="_blank"
       aria-label="LinkedIn"
       variant="unstyled"
@@ -34,7 +32,7 @@ const Navbar = () => {
     ><FaLinkedin /></IconButton>
     <IconButton
       as="a"
-      href="https://www.github.com"
+      href="https://github.com/RathQd"
       target="_blank"
       aria-label="GitHub"
       variant="unstyled"
@@ -45,7 +43,7 @@ const Navbar = () => {
     </IconButton>
     <IconButton
       as="a"
-      href="https://leetcode.com"
+      href="https://leetcode.com/u/Rath0d/"
       target="_blank"
       aria-label="LeetCode"
       variant="unstyled"
@@ -56,7 +54,7 @@ const Navbar = () => {
     </IconButton>
     <IconButton
       as="a"
-      href="https://leetcode.com"
+      href="https://www.instagram.com/accounts/login/"
       target="_blank"
       aria-label="LeetCode"
       variant="unstyled"
