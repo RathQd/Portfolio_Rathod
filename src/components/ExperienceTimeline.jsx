@@ -32,8 +32,8 @@ const ExperienceTimeline = () => {
       </Text>
 
       <Flex justify="center" align="center" w="100%">
-        <TimelineRoot size="lg" maxW="500px" variant={'solid'} key={'solid'}>
-        <ExperienceItem 
+        <TimelineRoot colorPalette="teal" size="lg" maxW="500px" variant={'solid'} key={'solid'}>
+        <ExperienceItem colorPalette="teal" size="lg"
             role="Digital Specialist Engineer" 
             company="Infosys |" 
             year="2022 - Present" 
