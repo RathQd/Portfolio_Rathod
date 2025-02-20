@@ -98,7 +98,7 @@ const Hero = () => {
           justifyContent="center"
         >
           <MotionImage
-            src="../src/assets/dharam.jpg"
+            src="./dharam.jpg"
             alt="DharmrajRathod"
             objectFit="contain"
             ml={{ base: "45px", md: "45px", lg: "55px" }}
