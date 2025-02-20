@@ -22,8 +22,7 @@ const ExperienceItem = (props) => {
       transition={{ duration: 0.4, ease: "easeIn" }}
       whileHover={{ scale: 1.02 }} // Slight zoom on hover
     >
-      {/* <TimelineConnector borderColor="blue.500" backgroundColor="white" variant="solid"  /> */}
-      <TimelineConnector colorPalette="accent"   />
+      <TimelineConnector />
   
       <MotionTimelineContent
         initial={{ opacity: 0, x: -20 }} // Slide in from the left
