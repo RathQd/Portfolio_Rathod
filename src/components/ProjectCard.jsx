@@ -42,7 +42,7 @@ const ProjectCard = (props) => {
           overflow="hidden"
         >
           <MotionImage
-            src="/src/assets/react.svg"
+            src="../src/assets/react.svg"
             alt="Project Image"
             objectFit="contain"
             w="55%"
