@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Flex, Image, Box, Heading, Text, VStack, HStack, Icon, Spacer } from "@chakra-ui/react";
-import { motion } from "framer-motion";
+import { motion} from "framer-motion";
 import { IoMdLink } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
@@ -27,35 +27,39 @@ const ProjectCard = (props) => {
       whileHover={{ scale: 1.02, boxShadow: "0px 4px 10px rgba(255, 255, 255, 0.2)" }}
     >
       <HStack
+        ml={{ base: "3%", md: "60px", lg: "100px" }}
         spacing={{ base: 3, md: 5, lg: 8 }}
-        align="stretch"
+        alignItems="center"
         w="full"
         flexDirection={{ base: "column", md: "row" }}
       >
         {/* Left Side - Image */}
         <Box
           flexShrink={0}
-          w={{ base: "100%", md: "20%", lg: "40%" }}
-          mt={10}
+          w={{ base: "30%", md: "20%", lg: "20%" }}
+          display="flex"
+          alignItems="center"
           borderRadius="md"
           justifyItems="center"
           overflow="hidden"
         >
           <MotionImage
-            src="/react.svg"
+            src="/p2.svg"
             alt="Project Image"
             objectFit="contain"
-            w="55%"
-            h="55%"
+            w="80%"
+            h="80%"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           />
         </Box>
-
+    
         {/* Right Side - Project Details */}
         <Card.Body>
-          <VStack align={{ base: "center", md: "flex-start" }} spacing={{ base: 2, md: 4, lg: 3 }}>
+          <VStack w={{ base: "100%", md: "90%", lg: "80%" }} align={{ base: "left", md: "right" }} 
+          spacing={{ base: 2, md: 4, lg: 3 }}
+          >
             <HStack spacing={3}> {/* Adds space between text and icons */}
               <Heading size={{ base: "md", md: "lg", lg: "xl" }} textAlign={{ base: "center", md: "left" }}>
                 {props.name}
@@ -81,7 +85,7 @@ const ProjectCard = (props) => {
             <Text
               color="gray.400"
               fontSize={{ base: "sm", md: "md", lg: "lg" }}
-              textAlign={{ base: "center", md: "left", lg: "left" }}
+              textAlign={{ base: "left", md: "left", lg: "left" }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.4 }}

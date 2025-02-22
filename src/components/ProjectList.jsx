@@ -48,6 +48,7 @@ const ProjectList = () => {
         technologies = {techProject4}
         projectlink = "https://gwadp-2c6dd.web.app/"
         repo= ""/>         
+          
         
      </Flex>            
     </>
