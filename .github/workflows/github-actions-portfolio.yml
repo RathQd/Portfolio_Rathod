@@ -2,7 +2,7 @@ name: rathod
 on:
   push:
     branches:
-      - "main"
+      - "portfolio_yagnik"
   pull_request:
     branches:
       - "main"
