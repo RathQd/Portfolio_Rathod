@@ -45,7 +45,7 @@ const SecondaryNavbar = () => {
         gap={6}
         zIndex={1000}
         // boxShadow="inset 0px 4px 10px rgb(39, 39, 39)" 
-        _hover={{backgroundImage:"linear-gradient(to bottom right, rgb(83, 83, 83), rgb(3, 3, 3))"}}
+        _hover={{backgroundImage:"linear-gradient(to bottom right, rgb(1, 19, 26), rgb(4, 28, 56))"}}
         // boxShadow="dark-lg"
       >
         {navLinks.map(({ name, id }) => (
@@ -82,7 +82,7 @@ const SecondaryNavbar = () => {
               right={0}
               width="200px"
               height="40%"
-              backgroundImage="linear-gradient(to bottom right, rgb(83, 83, 83), rgb(3, 3, 3))"
+              backgroundImage="linear-gradient(to bottom right, rgb(1, 19, 26), rgb(4, 28, 56))"
               boxShadow="lg"
               zIndex={20}
               p={4}
@@ -94,7 +94,7 @@ const SecondaryNavbar = () => {
                 Close
               </Button>
               <VStack 
-                    backgroundImage="linear-gradient(to bottom right, rgb(83, 83, 83), rgb(3, 3, 3))"
+                    backgroundImage="linear-gradient(to bottom right, rgb(1, 19, 26), rgb(4, 28, 56))"
                     align="start" 
                     spacing={4} 
                     p={4} 
@@ -116,7 +116,7 @@ const SecondaryNavbar = () => {
     >
       <MenuItem 
         width="full" 
-        backgroundImage="linear-gradient(to bottom right, rgb(83, 83, 83), rgb(3, 3, 3))"
+        backgroundImage="linear-gradient(to bottom right, rgb(1, 19, 26), rgb(4, 28, 56))"
         _hover={{ 
           bg: "rgba(255, 255, 255, 0.1)", // Subtle hover effect 
         }}

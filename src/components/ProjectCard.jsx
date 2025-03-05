@@ -102,7 +102,7 @@ const ProjectCard = (props) => {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                   >
                     <Box
-                      bg="gray.700"
+                      bg="rgb(16, 34, 53)"
                       color="white"
                       px={3}
                       py={1}

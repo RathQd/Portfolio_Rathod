@@ -3,10 +3,10 @@ import ProjectCard from './ProjectCard'
 import {Text, Flex} from "@chakra-ui/react";
 
 const ProjectList = () => {
-    const techProject1 = ["React ", "ChakraUI ", "Docker "];
-    const techProject2 = ["React ", "Json-Server ", "ChakraUI", "Docker "];
-    const techProject3 = ["FastAPI ", "Pydantic", "Docker", "Postgress"];
-    const techProject4 = ["Android", "MLkit"];
+    const techProject1 = ["Java", "React ", "Maven ", " Docker", " Jenkins"];
+    const techProject2 = ["tech ", "tech ", "tech", "tech "];
+    const techProject3 = ["Java ", "Js", "Saas"];
+    const techProject4 = ["C"];
   return (
     <>
      <Text 
@@ -25,31 +25,23 @@ const ProjectList = () => {
       mt ={12}
     >
     <ProjectCard 
-        name="Portfolio" 
-        description = "Built a React and Chakra UI portfolio to showcase experience, skills, projects, and contact details with a responsive design." 
+        name="Old Age Home Management System" 
+        description = "A user-friendly web application for streamlining operations within an old age home and integrating it with essential services like hospitals, cabs, and NGOs for seamless functionality" 
         technologies = {techProject1}
-        projectlink = "https://dharmrajrathod6.onrender.com/"
-        repo= "https://github.com/RathQd/Portfolio_Rathod"/>
+        projectlink = ""
+        repo= ""/>
     <ProjectCard 
-        name="JobGlu" 
-        description = "Designed and implemented a job portal with React and JSON-Server, enabling job management. Dockerized for seamless deployment." 
-        technologies = {techProject2}
-        projectlink = "https://jobglu.onrender.com/"
-        repo= "https://github.com/RathQd/JobGlu"/>
-    <ProjectCard 
-        name="Social Media Backend" 
-        description = "Developed a FastAPI-based social media backend with JWT auth, Pydantic validation, Alembic migrations, CI/CD via GitHub Actions, and Dockerized deployment." 
+        name="DiscoveRead" 
+        description = "Web-App designed to find interesting articles on web." 
         technologies = {techProject3}
         projectlink = ""
-        repo= "https://github.com/RathQd/python_fastapi/tree/dev_fastapi"/>
+        repo= "https://github.com/yagnik112358/DiscoveRead"/>
     <ProjectCard 
-        name="Goods Warehose ADP" 
-        description = "Goods Warehouse ADP connects warehouses, vendors, and third-party apps for instant 2-3 hour delivery, leveraging AI, ML, and cloud for automated data processing." 
+        name="Banking System" 
+        description = "a small Mini-Project on user-friendly online banking system." 
         technologies = {techProject4}
-        projectlink = "https://gwadp-2c6dd.web.app/"
-        repo= ""/>         
-          
-        
+        projectlink = ""
+        repo= "https://github.com/yagnik112358/Banking-System"/>   
      </Flex>            
     </>
    

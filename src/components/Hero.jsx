@@ -38,7 +38,7 @@ const Hero = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            Dharmraj Rathod
+            Yagnik Bharadwa
           </MotionHeading>
 
           {/* Job Title - Fades In */}
@@ -62,13 +62,13 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Solution-driven software developer with expertise in FastAPI, PostgreSQL, and Python, building scalable backend systems. Skilled in Docker, containerization, automation, CI/CD, and testing for efficient workflows. Proficient in Git for version control and familiar with React & Node.js for full-stack development.
+            I'm an M.Tech graduate from IIIT Bangalore with experience in web development, data analytics, and security systems. I co-led a project on old age management, interned at HP Insights Lab, and now work at PAYU (Wibmo) on authentication and transaction security. Passionate about technology and innovation, I thrive in dynamic, collaborative environments.
           </MotionText>
 
           {/* Button - Zooms in */}
           <MotionButton
             as="a"
-            href="/DharmrajRathod.pdf"
+            href="/Yagnik_Bharadwa_Feb.pdf"
             download
             colorScheme="teal"
             borderRadius="full"
@@ -101,7 +101,7 @@ const Hero = () => {
         >
           <MotionImage
             src="./dharam.jpg"
-            alt="DharmrajRathod"
+            alt="Yagnik"
             objectFit="contain"
             ml={{ base: "45px", md: "45px", lg: "55px" }}
             transform="scale(1.25)"

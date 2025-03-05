@@ -23,7 +23,7 @@ const Navbar = () => {
   <Flex gap={0}>
     <IconButton
       as="a"
-      href="https://www.linkedin.com/in/rathqd/"
+      href="https://www.linkedin.com/in/yagnik-bharadwa/"
       target="_blank"
       aria-label="LinkedIn"
       variant="unstyled"
@@ -32,7 +32,7 @@ const Navbar = () => {
     ><FaLinkedin /></IconButton>
     <IconButton
       as="a"
-      href="https://github.com/RathQd"
+      href="https://github.com/yagnik112358"
       target="_blank"
       aria-label="GitHub"
       variant="unstyled"
@@ -43,7 +43,7 @@ const Navbar = () => {
     </IconButton>
     <IconButton
       as="a"
-      href="https://leetcode.com/u/Rath0d/"
+      href="#"
       target="_blank"
       aria-label="LeetCode"
       variant="unstyled"

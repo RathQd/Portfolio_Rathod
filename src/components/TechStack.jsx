@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, VStack, Text, Icon, SimpleGrid, Tooltip } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaDatabase, FaDocker } from "react-icons/fa";
-import { SiPython, SiFastapi, SiPydantic  } from "react-icons/si";
+import { FaReact, FaJava, FaNodeJs, FaGitAlt, FaDocker } from "react-icons/fa";
+import { SiPython, SiSpring, SiApachemaven,SiMysql, SiSonarqube } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbApi } from "react-icons/tb";
 
@@ -11,16 +11,16 @@ import { TbApi } from "react-icons/tb";
 const MotionBox = motion.create(Box);
 
 const techs = [
-  { name: "Python", icon: SiPython, color: "#3776AB" },
-  { name: "FastAPI", icon: SiFastapi, color: "#009688" },
+  { name: "Java", icon: FaJava, color: "#EA2D2E" },
+  { name: "Springboot", icon: SiSpring, color: "#6DB33F" },
   { name: "React", icon: FaReact, color: "#61DAFB" },
   { name: "Node.js", icon: FaNodeJs, color: "#339933" },
   { name: "APIs", icon: TbApi, color: "#E34F26" },
-  { name: "Pydantic", icon: SiPydantic, color: "#ffcc00" },
+  { name: "Apachemaven", icon: SiApachemaven, color: "#1B4976" },
   { name: "Docker", icon: FaDocker, color: "#2496ED" },
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
-  { name: "Database", icon: FaDatabase, color: "#4DB33D" },
-  { name: "Postgres", icon: BiLogoPostgresql , color: "#336791" }
+  { name: "Mysql", icon: SiMysql, color: "#F29111" },
+  { name: "Sonarqube", icon: SiSonarqube , color: "#F0D6B1" }
 ];
 
 const TechStack = () => {

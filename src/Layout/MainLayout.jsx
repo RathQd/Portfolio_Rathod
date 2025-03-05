@@ -7,7 +7,7 @@ import SecondaryNavbar from '@/components/SecondaryNavbar';
 const MainLayout = () => {
   return (
     <Flex
-      backgroundImage="linear-gradient(to bottom right, rgb(83, 83, 83), rgb(3, 3, 3))"
+      backgroundImage="linear-gradient(to bottom right, rgb(1, 19, 26), rgb(2, 9, 17))"
       minH="100vh"
       direction="column"
     >

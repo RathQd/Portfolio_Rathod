@@ -8,6 +8,6 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: 5000,
-    allowedHosts: ['dharmrajrathod6.onrender.com'],
+    allowedHosts: ['yagnikbharadwa.onrender.com'],
   }
 })

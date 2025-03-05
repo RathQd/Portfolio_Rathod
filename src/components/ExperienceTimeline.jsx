@@ -12,10 +12,6 @@ import { LuBriefcase, LuCode, LuGraduationCap } from "react-icons/lu";
 import ExperienceItem from "./ExperienceItem";
 
 const ExperienceTimeline = () => {
-    const techProject1 = ["Python ", "REST APIs ", "FastAPI "];
-    const techProject2 = ["Python ", "REST APIs ", "FastAPI "];
-    const techProject3 = ["Python ", "REST APIs ", "FastAPI "];
-    const techProject4 = ["Python ", "REST APIs ", "FastAPI "];
   return (
     <Box
       w="100%"
@@ -34,16 +30,22 @@ const ExperienceTimeline = () => {
       <Flex justify="center" align="center" w="100%">
         <TimelineRoot colorPalette="teal" size="lg" maxW="500px" variant={'solid'} key={'solid'}>
         <ExperienceItem colorPalette="teal" size="lg"
-            role="Digital Specialist Engineer" 
-            company="Infosys |" 
+            role="Software Engineer" 
+            company="PayU |" 
             year="2022 - Present" 
-            desc="Developing REST APIs and automating data workflows using the Python stack and cloud technologies."
+            desc="I contribute to the ACS team, enhancing authentication with Single Sign-On, EazyConnect for API integration, and the Authorization Engine. With expertise in backend, frontend, and transaction flows, I ensure seamless authentication solutions."
             />
+        <ExperienceItem colorPalette="teal" size="lg"
+            role="Research Intern" 
+            company="HP |" 
+            year="2022" 
+            desc="Contributed to the Insights Lab by generating valuable insights from analyzed data for small and medium business printers."
+            />    
         <ExperienceItem 
-            role="M.Tech CSE Research Student" 
-            company="Indian Institute Of Information Technology" 
+            role="M.Tech CSE" 
+            company="International Institute of Information Technology Bangalore" 
             year="" 
-            desc="Developed expertise in AI, ML, and data analytics. Gained hands-on experience with big data technologies and statistical analysis for solving real-world problems."
+            desc="Developed expertise in AI, ML, and data analytics. Gained hands-on experience solving real-world problems."
             />
         <ExperienceItem 
             role="B.E CSE" 

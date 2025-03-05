@@ -24,11 +24,11 @@ const GetInTouch = () => {
         </Text>
         <Text fontSize={{ base: "sm", md: "md" }}>
           <Icon as={FaPhone} color="blue.400" mr={2} />
-          +91 9979793462
+          +91 99740 65330
         </Text>
         <Text fontSize={{ base: "sm", md: "md" }}>
           <Icon as={FaEnvelope} color="green.400" mr={2} />
-          dharmraj98r@gmail.com 
+          yagnikbharadwa@gmail.com
         </Text>
       </VStack>
       <Separator mt={4} />
