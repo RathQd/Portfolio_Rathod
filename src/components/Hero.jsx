@@ -100,10 +100,10 @@ const Hero = () => {
           justifyContent="center"
         >
           <MotionImage
-            src="./dharam.jpg"
+            src="./yagnik.jpeg"
             alt="Yagnik"
             objectFit="contain"
-            ml={{ base: "45px", md: "45px", lg: "55px" }}
+            ml={{ base: "10px", md: "10px", lg: "10px" }}
             transform="scale(1.25)"
             initial={{ opacity: 0, scale: 1.5 }}
             animate={{ opacity: 1, scale: 1.25 }}
