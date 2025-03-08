@@ -52,7 +52,7 @@ const Navbar = () => {
     >
     <SiLeetcode />
     </IconButton>
-    <IconButton
+    {/* <IconButton
       as="a"
       href="https://www.instagram.com/accounts/login/"
       target="_blank"
@@ -62,7 +62,7 @@ const Navbar = () => {
       _hover={{ color: "#FF4500" }}
     >
     <FaInstagram size={25.5} />
-    </IconButton>
+    </IconButton> */}
   </Flex>
 </Flex>
   )

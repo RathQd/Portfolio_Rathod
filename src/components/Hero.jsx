@@ -88,8 +88,8 @@ const Hero = () => {
 
         {/* Right Side - Animated Image */}
         <Box
-          width={{ base: "185px", md: "300px", lg: "450px" }}
-          height={{ base: "185px", md: "250px", lg: "450px" }}
+          width={{ base: "165px", md: "300px", lg: "450px" }}
+          height={{ base: "165px", md: "250px", lg: "430px" }}
           // ml={{ base: "45px", md: "0px", lg: "0px" }}
           borderRadius="full"
           border="2px solid white"
@@ -100,15 +100,17 @@ const Hero = () => {
           justifyContent="center"
         >
           <MotionImage
-            src="./dharam.jpg"
+            src="./dharam1.PNG"
             alt="DharmrajRathod"
             objectFit="contain"
-            ml={{ base: "45px", md: "45px", lg: "55px" }}
-            transform="scale(1.25)"
-            initial={{ opacity: 0, scale: 1.5 }}
-            animate={{ opacity: 1, scale: 1.25 }}
+            mt={{ base: "80px", md: "0px", lg: "0px" }}
+            ml={{ base: "0px", md: "30px", lg: "0px" }}
+            mr={{ base: "15px", md: "45px", lg: "30px" }}
+            transform="scale(1)"
+            initial={{ opacity: 0, scale: 1.2 }}
+            animate={{ opacity: 1, scale: 1.1 }}
             transition={{ duration: 1, delay: 0.3 }}
-            whileHover={{ scale: 1.4 }} // Zoom effect on hover
+            whileHover={{ scale: 1.15 }} // Zoom effect on hover
           />
         </Box>
       </Stack>
