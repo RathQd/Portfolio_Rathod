@@ -88,8 +88,8 @@ const Hero = () => {
 
         {/* Right Side - Animated Image */}
         <Box
-          width={{ base: "185px", md: "300px", lg: "450px" }}
-          height={{ base: "185px", md: "250px", lg: "450px" }}
+          width={{ base: "185px", md: "300px", lg: "400px" }}
+          height={{ base: "185px", md: "250px", lg: "400px" }}
           // ml={{ base: "45px", md: "0px", lg: "0px" }}
           borderRadius="full"
           border="2px solid white"
@@ -103,12 +103,15 @@ const Hero = () => {
             src="./yagnik.jpeg"
             alt="Yagnik"
             objectFit="contain"
-            ml={{ base: "10px", md: "10px", lg: "10px" }}
-            transform="scale(1.25)"
-            initial={{ opacity: 0, scale: 1.5 }}
-            animate={{ opacity: 1, scale: 1.25 }}
+            // mt={{ base: "10px", md: "10px", lg: "10px" }}
+            ml={{ base: "16px", md: "10px", lg: "15px" }}
+            mr={{ base: "10px", md: "10px", lg: "10px" }}
+            mb={{ base: "10px", md: "10px", lg: "80px" }}
+            transform="scale(1)"
+            initial={{ opacity: 0, scale: 1 }}
+            animate={{ opacity: 1, scale: 1.2 }}
             transition={{ duration: 1, delay: 0.3 }}
-            whileHover={{ scale: 1.4 }} // Zoom effect on hover
+            whileHover={{ scale: 1.25 }} // Zoom effect on hover
           />
         </Box>
       </Stack>
