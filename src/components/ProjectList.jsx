@@ -31,6 +31,12 @@ const ProjectList = () => {
         projectlink = "https://dharmrajrathod6.onrender.com/"
         repo= "https://github.com/RathQd/Portfolio_Rathod"/>
     <ProjectCard 
+        name="Collaborative Event Management System" 
+        description = "Developed a FastAPI-based app, enabling secure event creation, sharing, versioning, and real-time updates via email, CI/CD via GitHub Actions, and Dockerized deployment." 
+        technologies = {techProject3}
+        projectlink = "Collaborative-event-management-system-0qep.onrender.com/docs"
+        repo= "https://github.com/RathQd/Collaborative-Event-Management-System"/>
+    <ProjectCard 
         name="JobGlu" 
         description = "Designed and implemented a job portal with React and JSON-Server, enabling job management. Dockerized for seamless deployment." 
         technologies = {techProject2}
